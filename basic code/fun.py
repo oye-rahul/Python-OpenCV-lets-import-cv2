@@ -43,21 +43,39 @@
 #     print(fname,lname)
 # name ("rahul")
 
-from datetime import datetime
-nows = datetime.now()
-print(nows)
+# from datetime import datetime
+# nows = datetime.now()
+# print(nows)
 
-import datetime
-today = datetime.date.today()
-print(today)
+# import datetime
+# today = datetime.date.today()
+# print(today)
 
-import os
-currntOS = os.getcwd()
-print(currntOS)
+# import os
+# currntOS = os.getcwd()
+# print(currntOS)
 
-import json
-data = {"name":"rahul","age":20}
-jstring = json.dumps(data)
-print(jstring)
+# import json
+# data = {"name":"rahul","age":20}
+# jstring = json.dumps(data)
+# print(jstring)
+# ---------------------------------------------------------------------------------------------
+# num1 = int(input("ent number 1: "))
+# num2 = int(input("ent number 2: "))
+# def add (num1,num2):
+#     print("total of two number is -",num1 + num2)
+# add(num1,num2)
 
+
+# name = input("ent name: ")
+# age = int(input("ent age: "))
+# def add (name,age):
+#     print(f"your name is {name} and age is {age}.")
+# add(age = 21,name = "rahul")
+# add(age,name) 
+# add(name,age) 
+
+# def welcome (name="guest"):
+#     print(f"welcome, {name}")
+# welcome()
 
